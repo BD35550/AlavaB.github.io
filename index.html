@@ -1,22 +1,46 @@
 <!doctype html>
 <html lang="fr">
+<html xmlns:og="http://ogp.me/ns#">
+
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="La Chouette Agence, entreprise de Web Design basée à Lyon. Création et rafraichissement de sites Web, acompagnement pour optimiser le design, illustrations avec graphistes de qualité. Collaboration avec entreprises locales.">
+    <meta name="description" content="La Chouette Agence, entreprise de Web Design basée à Lyon. Création et rafraîchissement de sites Web. Collaboration avec entreprises locales.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon-min.jpg">
+	<meta name="robots" content="follow">
+	<meta property="og:title" content="La Chouette Agence. Agence Webdesign basée à Lyon" />
+	<meta property="og:description" content="La Chouette Agence, entreprise de Web Design basée à Lyon. Création et rafraîchissement de sites Web. Collaboration avec entreprises locales.">
+	<meta property="og:type" content="site Web" />
+	<meta property="og:url" content="https://alavab.github.io/index.html" />
+	<meta property="og:image" content="img/image.de.presentation.jpg" />
+	<meta property="og:site_name" content="La Chouette Agence." />
+
+	<link rel="shortcut icon" type="image/png" href="favicon-min.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-	
-    
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
+
+	<script type="application/ld+json">
+		{
+		"@context" : "http://schema.org",
+		"@type" : "LocalBusiness",
+		"name" : "La chouette agence",
+		"email" : "contact@lachouetteagence.com",
+		"address" : {
+			"@type" : "PostalAddress",
+			"streetAddress" : "2 place Sathonay",
+			"addressLocality" : "Lyon",
+			"postalCode" : "69001" }
+		"openingHoursSpecification" : {
+			"@type" : "OpeningHoursSpecification",
+			"dayOfWeek" : {
+			"@type" : "DayOfWeek",
+			"name" : "du lundi au vendredi" }
+			},
+		"image" : "https://alavab.github.io/img/logo-min.png"
+		}
+	</script>
 
     <title>La Chouette Agence - Entreprise Web Design à Lyon</title>
 
@@ -223,22 +247,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="https://twitter.com/"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="https://www.facebook.com/"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="https://www.instagram.com/"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 					<div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
@@ -291,6 +315,11 @@
 </div>
 <!-- Principal conteneur END -->
     
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js"></script>
 
 </body>
 </html>
