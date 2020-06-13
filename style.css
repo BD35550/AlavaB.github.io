@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper-min.png");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -675,12 +675,9 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-.description 
-{
-    font-size: 20px;
-}
+
 p {
-    font-size: 16px;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -707,13 +704,12 @@ p {
     margin: auto auto auto auto;
 }
 
-h3 {
+h2 {
     font-size: 22px;
-    font-weight: bold;
     line-height: 1.4em;
 }
 
-h2 {
+h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -779,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
@@ -817,16 +813,16 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h3-bg {
-    background-image: url("img/lines-h3-bg-min.png");
+.bg-lines-h2-bg {
+    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere-min.jpg");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation-min.jpg");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
@@ -1031,10 +1027,7 @@ h4 {
         height: 320px;
     }
 }
-.list-sizing
-{
-    margin-bottom: 8px;
-}
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
